@@ -25,7 +25,7 @@ const verejnost = {
 		["\"No já bych vám věřil všechno.\""],
 		["Máme vlastní stan"],
 		["\"Dáváte razítka?\""],
-		["Kdokoliv chce výklad od konce","Kdokoliv neslyšel začátek","Kdokoliv se vrací","Kdokoliv přivede kamaráda"],
+		["Kdokoliv chce výklad od konce","Kdokoliv neslyšel začátek","Kdokoliv se vrací na stánek","Kdokoliv přivede kamaráda"],
 		["Rodiče vyrábí taky"],
 		["Kdokoliv zůstal na všechna vystoupení"],
 		["Kdokoliv vybízí nesmělé lidi u stánku"],

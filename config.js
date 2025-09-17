@@ -4,6 +4,11 @@ const skola = {
 		["Zvoní uprostřed programu"],
 		["Někdo se směje a nikdo neví, čemu"],
 		["Kdokoliv zdobrovolňuje spolužáka"],
+		["\"To si můžeme nechat?\""],
+		["Kdokoliv nadšeně ukazuje výrobek","Zapomenutý výrobek"],
+		["Učitelé vyrábí taky"],
+		["Omotávač","Ochutnávač baterek/magnetů","Destruktivní jedinec"],
+		["Seriozní odpověď na absurdní otázku"],
 	]
 };
 
@@ -18,13 +23,15 @@ const verejnost = {
 		["\"No já bych vám věřil všechno.\""],
 		["Máme vlastní stan"],
 		["\"Dáváte razítka?\""],
-		["Kdokoliv chce výklad od konce","Kdokoliv neslyšel začátek"],
-		["Kdokoliv vybízí nesmělé lidi u stánku"]
+		["Kdokoliv chce výklad od konce","Kdokoliv neslyšel začátek","Kdokoliv se vrací","Kdokoliv přivede kamaráda"],
+		["Rodiče vyrábí taky"],
+		["Kdokoliv zůstal na všechna vystoupení"],
+		["Kdokoliv vybízí nesmělé lidi u stánku"],
 	],
 };
 
 const ostatni = {
-	size: 3,
+	size: 5,
 	dict: [
 		["\"Vy máte věcí!\"","\"Vy toho máte!\"","\"To všechno potřebujete?\""],
 		["Druhý performer se směje"],
@@ -37,8 +44,20 @@ const ostatni = {
 		["Kdokoliv pomáhá nosit"],
 		["Přespání","Cesta brzo ráno"],
 		["Jede se dvěma auty","Kdokoliv jede hromadkou","Kdokoliv je už na místě"],
+		["Auto je nacpané k prasknutí"],
+		["Hodila by se kolečka pod bednu"],
 		["Kdokoliv potřebuje kafe"],
-		["Kdokoliv křičí \"BINGO!\""],
+		["\"Které pití je moje?\"","\"Co můžu sníst?\"","\"Kde máme svačinu?\""],
+		["Cokoliv se tahá z bedny během show","\"Kam jsem si dal..?\"","Pozdě zapnutá rychlovarka","Náhodný fun fact"],
+		["Plyšák ve vystoupení"],
+		["\"A co by se stalo, kdyby..?\""],
+		["Kdokoliv fotí","\"Můžu fotit?\""],
+		["Neúmyslný dvojsmysl"],
+		["Pochvala od účastníka akce","Pochvala od organizátora"],
+		["\"To nacítíme\""],
+		["Kdokoliv se chytil na niche vtip"],
+		["Brm, brm","Žuch","Kdokoliv působí vypnutě","Rána, ale ne od nás"],
+		["Kdokoliv má \"BINGO!\""],
 	]
 };
 
@@ -46,14 +65,14 @@ const ostatni = {
 const skola_full_dict = skola.dict.concat(ostatni.dict);
 
 const skola_full = {
-	size: 3,
+	size: 5,
 	dict: skola_full_dict
 };
 
 const verejnost_full_dict = verejnost.dict.concat(ostatni.dict);
 
 const verejnost_full = {
-	size: 4,
+	size: 5,
 	dict: verejnost_full_dict
 };
 
@@ -66,7 +85,7 @@ const bingotables = [
 		checkname: "skola"
 	},
 	{
-		name: "Pro veřejnost",
+		name: "Veřejnost",
 		config: verejnost_full,
 		checkname: "verejnost"
 	},

@@ -9,6 +9,8 @@ const skola = {
 		["Učitelé vyrábí taky"],
 		["Omotávač","Ochutnávač baterek/magnetů","Destruktivní jedinec"],
 		["Seriozní odpověď na absurdní otázku"],
+		["Učebna v přízemí","Učebna po schodech nahoru","V učebně nejdou přesunout lavice","Učebna má stupínek"],
+		["Temníme sami","Učebna má temnění"],
 	]
 };
 

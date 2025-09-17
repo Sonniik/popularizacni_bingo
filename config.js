@@ -78,8 +78,6 @@ const verejnost_full = {
 	dict: verejnost_full_dict
 };
 
-verejnost_full.dict.concat(verejnost.dict,ostatni.dict);
-
 const bingotables = [
 	{
 		name: "Škola",

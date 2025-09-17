@@ -1,1 +1,1 @@
-Bingo pro prváky učitelství matematiky hratelné [zde](https://sonniik.github.io/bingo/).
+Bingo pro popularizační akce hratelné [zde](https://sonniik.github.io/popularizacni_bingo/).

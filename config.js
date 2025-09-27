@@ -11,7 +11,7 @@ const skola = {
 		["Seriozní odpověď na absurdní otázku"],
 		["Učebna v přízemí","Učebna po schodech nahoru","V učebně nejdou přesunout lavice","Učebna má stupínek"],
 		["Temníme sami","Učebna má temnění"],
-		["Odchod s pytlíkem mincí"),
+		["Odchod s pytlíkem mincí"],
 	]
 };
 

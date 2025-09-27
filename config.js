@@ -11,6 +11,7 @@ const skola = {
 		["Seriozní odpověď na absurdní otázku"],
 		["Učebna v přízemí","Učebna po schodech nahoru","V učebně nejdou přesunout lavice","Učebna má stupínek"],
 		["Temníme sami","Učebna má temnění"],
+		["Odchod s pytlíkem mincí"),
 	]
 };
 
@@ -29,6 +30,11 @@ const verejnost = {
 		["Rodiče vyrábí taky"],
 		["Kdokoliv zůstal na všechna vystoupení"],
 		["Kdokoliv vybízí nesmělé lidi u stánku"],
+		["Vezeme vlastní zvuk","Zvuk mají na místě"],
+		["\"Máte k tomu hudbu na fleshce?\""],
+		["\"Můžu si vyrobit ještě jeden?\"","\"Můžu si vyrobit ještě jeden pro ... ?\""],
+		["\"Platí se to?\"","\"Je to zdarma?\""],
+		["\"In english?\""],
 	],
 };
 
@@ -60,6 +66,16 @@ const ostatni = {
 		["Kdokoliv se chytil na niche vtip"],
 		["Brm, brm","Žuch","Kdokoliv působí vypnutě","Rána, ale ne od nás"],
 		["Kdokoliv má \"BINGO!\""],
+		["Problém s autem"],
+		["Lopáček a smetatka"],
+		["Mikrofony? Náhlavní? Dva?"],
+		["\"Vy jste ta VIDA?\""],
+		["\"Tak když to spotřebuju, tak to doplním, nebo řeknu!\""],
+		["\"Kde jsou kuchenrolle?\""],
+		["\"Kde je gafa?\""],
+		["\"Kde je všechnobedna?\""],
+		["\"Ve všechnobedně!\""],
+		["\"To je naše prodlužka\""],
 	]
 };
 

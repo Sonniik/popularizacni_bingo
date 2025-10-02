@@ -12,6 +12,7 @@ const skola = {
 		["Učebna v přízemí","Učebna po schodech nahoru","V učebně nejdou přesunout lavice","Učebna má stupínek"],
 		["Temníme sami","Učebna má temnění"],
 		["Odchod s pytlíkem mincí"],
+		["Zapomenutý Karel", "\"WHERE KAREL?\""],
 	]
 };
 
@@ -35,6 +36,8 @@ const verejnost = {
 		["\"Můžu si vyrobit ještě jeden?\"","\"Můžu si vyrobit ještě jeden pro ... ?\""],
 		["\"Platí se to?\"","\"Je to zdarma?\""],
 		["\"In english?\""],
+		["Mikrofony? Náhlavní? Dva?"],
+		["\"To by věděl kolega...\""],
 	],
 };
 
@@ -54,44 +57,106 @@ const ostatni = {
 		["Jede se dvěma auty","Kdokoliv jede hromadkou","Kdokoliv je už na místě"],
 		["Auto je nacpané k prasknutí"],
 		["Hodila by se kolečka pod bednu"],
-		["Kdokoliv potřebuje kafe"],
 		["\"Které pití je moje?\"","\"Co můžu sníst?\"","\"Kde máme svačinu?\""],
 		["Cokoliv se tahá z bedny během show","\"Kam jsem si dal..?\"","Pozdě zapnutá rychlovarka","Náhodný fun fact"],
 		["Plyšák ve vystoupení"],
 		["\"A co by se stalo, kdyby..?\""],
 		["Kdokoliv fotí","\"Můžu fotit?\""],
-		["Neúmyslný dvojsmysl"],
 		["Pochvala od účastníka akce","Pochvala od organizátora"],
 		["\"To nacítíme\""],
 		["Kdokoliv se chytil na niche vtip"],
-		["Brm, brm","Žuch","Kdokoliv působí vypnutě","Rána, ale ne od nás"],
-		["Kdokoliv má \"BINGO!\""],
-		["Problém s autem"],
+		["Kdokoliv působí vypnutě","Rána, ale ne od nás"],
 		["Lopáček a smetatka"],
-		["Mikrofony? Náhlavní? Dva?"],
 		["\"Vy jste ta VIDA?\""],
-		["\"Tak když to spotřebuju, tak to doplním, nebo řeknu!\""],
-		["\"Kde jsou kuchenrolle?\""],
-		["\"Kde je gafa?\""],
 		["\"Kde je všechnobedna?\""],
 		["\"Ve všechnobedně!\""],
 		["\"To je naše prodlužka\""],
+		["Odpad a hadr ve stejném kýblu"],
+		["Kdokoliv vystupuje sám"],
+		["Máš o kýbl méně, než potřebuješ"],
+		["Surprise! Kouřový hlásič!"],
+		["Kdokoliv vypadá, že má dost"],
+		["Pivo na akci"],
+		["Úraz na akci"],
+		["\"Kde se tady dá najíst?\"","\"Co provedeme s obědem?\""],
 	]
 };
 
+const provozni = {
+	size: 2,
+	dict: [
+		["Kdokoliv potřebuje kafe"],
+		["Neúmyslný dvojsmysl"],
+		["Brm, brm","Žuch"],
+		["Kdokoliv má \"BINGO!\""],
+		["Problém s autem"],
+		["\"Když to spotřebuju, tak to doplním, nebo řeknu!\""],
+		["\"Kde jsou kuchenrolle?\""],
+		["\"Kde je gafa?\""],
+		["\"To uděláme o prázdninách\""],
+		["Je bordel v bedně","Chybí něco v bedně"],
+		["\"Dáte si kafe?\""],
+		["Kdokoliv přidává věci do binga"],
+		["\"To se tam nevejde...\""],
+		["Kdokoliv cokoliv zapomněl"],
+		["Kdokoliv cokoliv","Něco...","Kdokoliv váhá"],
+	]
+};
 
-const skola_full_dict = skola.dict.concat(ostatni.dict);
+const kancl = {
+	size: 4,
+	dict: [
+		["Kdokoliv jí oříšky"],
+		["Přišel balík"],
+		["\"Já tu mám balíček\""],
+		["Zbytečně zkomplikovaná činnost"],
+		["Tiskárna protestuje"],
+		["Kdokoliv využívá gaučík"],
+		["Jede laser"],
+		["Jede 3D tiskárna"],
+		["Z chemické sekce se valí dým"],
+		["Smrdí tu nějaké chemky"],
+		["Kdokoliv na něco nadává","Kdokoliv si něco pochvaluje"],
+		["Kdokoliv testuje pokus"],
+		["Zaučování"],
+		["Volání na akci","Volají z akce zpátky"],
+		["Věci na foticím stole"],
+		["Větráme"],
+		["\"Kolik kafe si dělám?\"","\"Kafe?\"\"Kafe.\""],
+		["\"Polívku, jedničku, nealko\"","\"Polívku, dvojku, nealko\"","\"Bez polívky?\"\"Bez polívky\""],
+		["\"Nealko Krušovice\"","\"Malý Radler\"","\"Malé nealko\""],
+		["Cítíš se na Heffrona"],
+		["Kdokoliv kohokoliv škrabká"],
+		["\"Oběd?\""],
+	]
+};
+
+const skola_full_dict = skola.dict.concat(ostatni.dict,provozni.dict);
 
 const skola_full = {
 	size: 5,
 	dict: skola_full_dict
 };
 
-const verejnost_full_dict = verejnost.dict.concat(ostatni.dict);
+const verejnost_full_dict = verejnost.dict.concat(ostatni.dict,provozni.dict);
 
 const verejnost_full = {
 	size: 5,
 	dict: verejnost_full_dict
+};
+
+const ostatni_full_dict = ostatni.dict.concat(provozni.dict);
+
+const ostatni_full = {
+	size: 5,
+	dict: ostatni_full_dict
+};
+
+const kancl_full_dict = kancl.dict.concat(provozni.dict);
+
+const kancl_full = {
+	size: 5,
+	dict: kancl_full_dict
 };
 
 const bingotables = [
@@ -107,7 +172,12 @@ const bingotables = [
 	},
 	{
 		name: "Ostatní",
-		config: ostatni,
+		config: ostatni_full,
+		checkname: "ostatni"
+	},
+	{
+		name: "Kancl",
+		config: kancl_full,
 		checkname: "ostatni"
 	}
 ];

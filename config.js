@@ -38,6 +38,8 @@ const verejnost = {
 		["\"In english?\""],
 		["Mikrofony? Náhlavní? Dva?"],
 		["\"To by věděl kolega...\""],
+		["Pivo na akci"],
+		["Sonina sukně"],
 	],
 };
 
@@ -76,9 +78,11 @@ const ostatni = {
 		["Máš o kýbl méně, než potřebuješ"],
 		["Surprise! Kouřový hlásič!"],
 		["Kdokoliv vypadá, že má dost"],
-		["Pivo na akci"],
 		["Úraz na akci"],
 		["\"Kde se tady dá najíst?\"","\"Co provedeme s obědem?\""],
+		["\"Chcete s něčím pomoct?\""],
+		["Dveře zapřené bednou"],
+		["Volá někdo z kanclu"]
 	]
 };
 
@@ -87,7 +91,7 @@ const provozni = {
 	dict: [
 		["Kdokoliv potřebuje kafe"],
 		["Neúmyslný dvojsmysl"],
-		["Brm, brm","Žuch"],
+		["Brm, brm","Žuch","Křach","Kdokoliv brouká Imperial March"],
 		["Kdokoliv má \"BINGO!\""],
 		["Problém s autem"],
 		["\"Když to spotřebuju, tak to doplním, nebo řeknu!\""],
@@ -100,6 +104,9 @@ const provozni = {
 		["\"To se tam nevejde...\""],
 		["Kdokoliv cokoliv zapomněl"],
 		["Kdokoliv cokoliv","Něco...","Kdokoliv váhá"],
+		["Absolutní sync"],
+		["Nápad na meme"],
+		["\"That's what she said\""],
 	]
 };
 
@@ -112,7 +119,7 @@ const kancl = {
 		["Zbytečně zkomplikovaná činnost"],
 		["Tiskárna protestuje"],
 		["Kdokoliv využívá gaučík"],
-		["Jede laser"],
+		["Jede laser","Běží odtah"],
 		["Jede 3D tiskárna"],
 		["Z chemické sekce se valí dým"],
 		["Smrdí tu nějaké chemky"],
@@ -128,6 +135,10 @@ const kancl = {
 		["Cítíš se na Heffrona"],
 		["Kdokoliv kohokoliv škrabká"],
 		["\"Oběd?\""],
+		["Kdokoliv balí eshop","Kdokoliv odesílá balíky"],
+		["Brigádníci neumí rožnout na záchodě","Kdokoliv neumí zavřít dveře na záchod"],
+		["Odér popelnice","Vznesl se roj octomilek"],
+		["Zakopl jsem o bednu","\"Po kom je tahle bedna?\""],
 	]
 };
 

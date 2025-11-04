@@ -12,7 +12,7 @@ const skola = {
 		["Učebna v přízemí","Učebna po schodech nahoru","V učebně nejdou přesunout lavice","Učebna má stupínek"],
 		["Temníme sami","Učebna má temnění"],
 		["Odchod s pytlíkem mincí"],
-		["Zapomenutý Karel", "\"WHERE KAREL?\""],
+		["Zapomenutý Karel", "\"WHERE KAREL?!\""],
 	]
 };
 
@@ -67,7 +67,8 @@ const ostatni = {
 		["Pochvala od účastníka akce","Pochvala od organizátora"],
 		["\"To nacítíme\""],
 		["Kdokoliv se chytil na niche vtip"],
-		["Kdokoliv působí vypnutě","Rána, ale ne od nás"],
+		["Kdokoliv působí vypnutě"],
+		["Rána, ale ne od nás"],
 		["Lopáček a smetatka"],
 		["\"Vy jste ta VIDA?\""],
 		["\"Kde je všechnobedna?\""],
@@ -133,12 +134,14 @@ const kancl = {
 		["\"Polívku, jedničku, nealko\"","\"Polívku, dvojku, nealko\"","\"Bez polívky?\"\"Bez polívky\""],
 		["\"Nealko Krušovice\"","\"Malý Radler\"","\"Malé nealko\""],
 		["Cítíš se na Heffrona"],
-		["Kdokoliv kohokoliv škrabká"],
+		["Kdokoliv kohokoliv škrabká", "Kdokoliv kohokoliv drbe"],
 		["\"Oběd?\""],
 		["Kdokoliv balí eshop","Kdokoliv odesílá balíky"],
 		["Brigádníci neumí rožnout na záchodě","Kdokoliv neumí zavřít dveře na záchod"],
 		["Odér popelnice","Vznesl se roj octomilek"],
 		["Zakopl jsem o bednu","\"Po kom je tahle bedna?\""],
+		["\"Já tě neslyším, já mám hlavu v laseru!\""],
+		["Soňa jde na oběd v papučkách"],
 	]
 };
 
@@ -189,7 +192,7 @@ const bingotables = [
 	{
 		name: "Kancl",
 		config: kancl_full,
-		checkname: "ostatni"
+		checkname: "kancl"
 	}
 ];
 

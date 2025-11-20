@@ -83,7 +83,8 @@ const ostatni = {
 		["\"Kde se tady dá najíst?\"","\"Co provedeme s obědem?\""],
 		["\"Chcete s něčím pomoct?\""],
 		["Dveře zapřené bednou"],
-		["Volá někdo z kanclu"]
+		["Volá někdo z kanclu"],
+		["\"Let me iiin!\""],
 	]
 };
 
@@ -108,6 +109,7 @@ const provozni = {
 		["Absolutní sync"],
 		["Nápad na meme"],
 		["\"That's what she said\""],
+		["Kdokoliv panikaří z akce"],
 	]
 };
 
@@ -127,21 +129,21 @@ const kancl = {
 		["Kdokoliv na něco nadává","Kdokoliv si něco pochvaluje"],
 		["Kdokoliv testuje pokus"],
 		["Zaučování"],
-		["Volání na akci","Volají z akce zpátky"],
+		["Volání na akci","Volají z akce zpátky","Info k akci SMSkou"],
 		["Věci na foticím stole"],
 		["Větráme"],
 		["\"Kolik kafe si dělám?\"","\"Kafe?\"\"Kafe.\""],
-		["\"Polívku, jedničku, nealko\"","\"Polívku, dvojku, nealko\"","\"Bez polívky?\"\"Bez polívky\""],
+		["\"Polívku, jedničku, nealko\"","\"Polívku, dvojku, nealko\"","\"Bez polívky?\"\"Bez polívky\"","Cokoliv z týdení nabídky","Svíčková day","Burgřík","Smažák"],
 		["\"Nealko Krušovice\"","\"Malý Radler\"","\"Malé nealko\""],
 		["Cítíš se na Heffrona"],
 		["Kdokoliv kohokoliv škrabká", "Kdokoliv kohokoliv drbe"],
 		["\"Oběd?\""],
 		["Kdokoliv balí eshop","Kdokoliv odesílá balíky"],
-		["Brigádníci neumí rožnout na záchodě","Kdokoliv neumí zavřít dveře na záchod"],
+		["Brigádníci neumí rožnout na záchodě","Kdokoliv neumí zavřít dveře"],
 		["Odér popelnice","Vznesl se roj octomilek"],
 		["Zakopl jsem o bednu","\"Po kom je tahle bedna?\""],
 		["\"Já tě neslyším, já mám hlavu v laseru!\""],
-		["Soňa jde na oběd v papučkách"],
+		["Soňa jde na oběd v papučkách","Soňa jde ven v papučkách"],
 	]
 };
 

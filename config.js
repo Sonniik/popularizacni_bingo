@@ -1,5 +1,5 @@
 const skola = {
-	size: 2,
+	size: 4,
 	dict: [
 		["Zvoní uprostřed programu"],
 		["Někdo se směje a nikdo neví, čemu"],
@@ -13,6 +13,17 @@ const skola = {
 		["Temníme sami","Učebna má temnění"],
 		["Odchod s pytlíkem mincí"],
 		["Zapomenutý Karel", "\"WHERE KAREL?!\""],
+		["Publikum ruší","Mrtvé publikum"],
+		["Levý přední roh ruší","Čtyři \"zajímaví\" uprostřed","Pohoršená děvčátka","Někdo potřebuje být \"zajímavý\""],
+		["Učitel nás mentálně připravuje na třídu", "Učitel se omlouvá za třídu"],
+		["Zadní řada spí", "Zadní řada kecá"],
+		["Demilitarizovaná zóna"],
+		["Je problém sedět v hnízdečkách"],
+		["Židlí je dost - sedáme si na lavice"],
+		["V pauze větráme"],
+		["Učitel násilně přesazuje"],
+		["Nosí se židle z jiné učebny"],
+		["Vystupujeme na šíř","Vystupujeme na dél"],
 	]
 };
 
@@ -85,6 +96,8 @@ const ostatni = {
 		["Dveře zapřené bednou"],
 		["Volá někdo z kanclu"],
 		["\"Let me iiin!\""],
+		["Kdokoliv svačí"],
+		["\"Dojdu přeparkovat\""],
 	]
 };
 

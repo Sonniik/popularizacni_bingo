@@ -146,7 +146,7 @@ const kancl = {
 		["Věci na foticím stole"],
 		["Větráme"],
 		["\"Kolik kafe si dělám?\"","\"Kafe?\"\"Kafe.\""],
-		["\"Polívku, jedničku, nealko\"","\"Polívku, dvojku, nealko\"","\"Bez polívky?\"\"Bez polívky\"","Cokoliv z týdení nabídky","Svíčková day","Burgřík","Smažák"],
+		["\"Polívku, jedničku, nealko\"","\"Polívku, dvojku, nealko\"","\"Bez polívky?\"\"Bez polívky\"","Cokoliv z týdení nabídky","Svíčková day","Burgřík","Smažák","Knedlíky"],
 		["\"Nealko Krušovice\"","\"Malý Radler\"","\"Malé nealko\""],
 		["Cítíš se na Heffrona"],
 		["Kdokoliv kohokoliv škrabká", "Kdokoliv kohokoliv drbe"],

@@ -123,6 +123,7 @@ const provozni = {
 		["Nápad na meme"],
 		["\"That's what she said\""],
 		["Kdokoliv panikaří z akce"],
+		["Nápad na pokus"],
 	]
 };
 
@@ -157,6 +158,10 @@ const kancl = {
 		["Zakopl jsem o bednu","\"Po kom je tahle bedna?\""],
 		["\"Já tě neslyším, já mám hlavu v laseru!\""],
 		["Soňa jde na oběd v papučkách","Soňa jde ven v papučkách"],
+		["Teplý nápoj"],
+		["Dřez je plný věcí"],
+		["Přecpaná popelnice"],
+		["Soňa \"spinká\""],
 	]
 };
 

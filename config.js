@@ -124,6 +124,7 @@ const provozni = {
 		["\"That's what she said\""],
 		["Kdokoliv panikaří z akce"],
 		["Nápad na pokus"],
+		["Running joke"],
 	]
 };
 
